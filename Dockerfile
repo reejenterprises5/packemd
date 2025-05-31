@@ -13,9 +13,6 @@ RUN npm install
 # Copy all project files
 COPY . .
 
-# Build the project (adjust if you don’t have build script)
-RUN npm run build
-
 # Expose port 3000 (adjust if your app uses another port)
 EXPOSE 3000
 
